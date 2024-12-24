@@ -12,38 +12,28 @@ import Congra from "./pages/congratulation/Congra";
 import Passwordr from "./pages/passwordR/Passwordr";
 import Passwordr2 from "./pages/passwordR2/Passwordr2";
 import Passdone from "./pages/passwordDone/Passdone";
-;
+import Search from "./pages/search/Search";
+
 function App() {
- 
   return (
     <div className="App">
-      
       <div>
-        
-    
-       <Routes>
-        <Route path= "/" element={<Home/>}/>
-        
-       
-        <Route path="/Join" element={<Join/>}/>
-        <Route path="/Tech" element={<Tech />}/>
-        <Route path="/Tech2" element={<Tech2 />}/>
-        <Route path="/Client" element={<Client />}/>
-        <Route path="/Client2" element={<Client2 />}/>
-        <Route path="/Log" element={<Log/>}/>
-        <Route path="/Congra" element={<Congra/>}/>
-        <Route path="/Passwordr" element={<Passwordr/>}/>
-        <Route path="/Passwordr2" element={<Passwordr2/>}/>
-        <Route path="/Passdone" element={<Passdone/>}/>
-         <Route path="/VerificationCodeInput" element={<VerificationCodeInput/>}/>
-        
-       </Routes>
-      
-        
-       
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Join" element={<Join />} />
+          <Route path="/Tech" element={<Tech />} />
+          <Route path="/Tech2" element={<Tech2 />} />
+          <Route path="/Client" element={<Client />} />
+          <Route path="/Client2" element={<Client2 />} />
+          <Route path="/Log" element={<Log />} />
+          <Route path="/Congra" element={<Congra />} />
+          <Route path="/Passwordr" element={<Passwordr />} />
+          <Route path="/Passwordr2" element={<Passwordr2 />} />
+          <Route path="/Passdone" element={<Passdone />} />
+          <Route path="/VerificationCodeInput" element={<VerificationCodeInput />} />
+          <Route path="/search" element={<Search />} />
+        </Routes>
       </div>
-       
-      
     </div>
   );
 }

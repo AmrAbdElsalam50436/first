@@ -4,6 +4,7 @@ import Service from './Services/Service';
 import Ourview from './Ourview/Ourview';
 import Comunicate from './Comunicate/Comunicate';
 import Foot from "./footer/Footer";
+
 import './Home.css';
 const Home =()=>{
     return(
@@ -14,8 +15,8 @@ const Home =()=>{
             <Ourview/>
             <Comunicate/>
             <Foot/>
+<search />
         </div>
-
     )
 
 }
